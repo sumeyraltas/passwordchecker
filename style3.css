@@ -1,0 +1,54 @@
+.style {
+    font-style: inherit;
+    font-family: Calibri;
+    background-color: #fff5f8;
+}
+
+.style2 {
+    font-size: 1.5%;
+}
+
+.card-image {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 60%;
+    height: 60%;
+}
+
+input {
+    font: small-caption;
+    font-size: 100%;
+    color: #fb2555;
+    background-color: rgb(243, 234, 234);
+    width: 50%;
+    padding: 1.2%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    background-color: #fb2555;
+    color: white;
+}
+font{
+    font-family: 'Exo';
+}
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} } 
